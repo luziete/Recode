@@ -1,0 +1,243 @@
+.container{
+    flex-direction: column !important;
+    max-width: 100% !important;
+    gap: 40px !important;
+    display: flex;
+}
+
+.bg-body-tertiary{
+    width: 100%;
+}
+.container-fluid{
+    background-color: #052c65;
+    max-width: 1600px !important;
+    border-radius: 8px;
+    gap: 5px;
+    align-items: center !important;
+    padding: 16px;
+    flex-direction: inherit !important;
+   
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-size: 25px !important;
+}
+
+.navbar-toggler{
+    border: 1px solid#fff !important;
+    background-color: #9ba7b8 !important;
+
+}
+
+.nav-link.dropdown-toggle{
+    color: #fff !important;  
+}
+
+.me-a{
+    padding: 5px !important;
+    font-size: 12px !important;
+    color: #fff !important;
+    border: transparent!important;
+    text-decoration: underline !important;
+    border-radius: 20px !important;
+    margin-right: 0pix !important;
+  
+
+}
+
+.btn-sm{
+    padding: 5px !important;
+    font-size: 12px !important;
+    color: #fff !important;
+    border: transparent!important;
+    text-decoration: underline !important;
+
+}
+
+.card-title{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fff !important;
+    margin: 0;
+}
+.card-text{
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+
+}
+.card{
+    border: transparent !important;
+   
+}
+
+.container-card{
+    gap: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.card-body {
+    background-color: #052c65 !important;
+
+}
+
+.social{
+
+    max-width: 890px;
+    width: 80%;
+    gap: 20px;
+
+}
+
+.rede-social{
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    object-fit: cover;
+}
+.face{
+    width: 65px;
+    height: 65px;
+    min-height: 65px;
+    min-width: 65px;
+    object-fit: cover;
+
+}
+.digital{
+    height: 50px;
+    border-radius: 5px !important;
+    object-fit: cover;
+    
+
+}
+
+.app{
+    height: 50px;
+    object-fit: cover;
+
+}
+
+
+h2{
+    color: #052c65 !important;
+}
+.app-img{
+    object-fit: cover;
+    height: 330px;
+
+
+}
+.infor{
+    display: flex;
+   justify-content: center;
+    width: 90%;
+}
+.footer{
+    background-color: #052c65;
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: 60px;
+}
+
+.lis{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin: 0 !important;
+}
+span{
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 0 !important;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .container-card{
+        flex-direction:column !important;
+        width: 100% !important;
+        gap: 15px !important;
+    }
+    .card{
+        width: 100% !important;
+    }
+
+    .infor{
+        width: 100% !important;
+        justify-content: flex-start !important;
+
+    }
+
+    .app-img{
+   
+        height: 200px !important;
+    
+    
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .app-img{
+   
+        display: none;
+    
+    
+    }
+    .image{
+        display: none;
+    }
+    .lis{
+        display: none;
+    }
+    .card-title{
+        font-size: 18px !important;
+    }
+    .card-text{
+        font-size:13px !important ;
+    }
+    
+
+}
+@media screen and (max-width: 670px){
+    h2{
+        font-size: 16px !important;
+       
+    }
+    .rede-social{
+        width: 40px !important;
+    height: 40px!important;
+    min-height: 40px!important;
+    min-width: 40px!important;
+
+    }
+    .face{
+        width: 50px !important;
+        height: 50px !important;
+        min-height: 50px !important;
+        min-width: 50px !important;
+      
+    
+    }
+    .app{
+        width: 70px;
+        object-fit: contain !important;
+        height: 37px !important;
+    }
+
+}

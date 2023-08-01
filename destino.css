@@ -1,0 +1,179 @@
+.container{
+    flex-direction: column !important;
+    max-width: 100% !important;
+    gap: 40px !important;
+    display: flex;
+}
+
+.bg-body-tertiary{
+    width: 100%;
+}
+.container-fluid{
+    background-color: #052c65;
+    border-radius: 8px;
+    gap: 5px;
+    align-items: center !important;
+    padding: 16px;
+    flex-direction: inherit !important
+    ;
+   
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-size: 25px !important;
+}
+
+.navbar-toggler{
+    border: 1px solid#fff !important;
+    background-color: #9ba7b8 !important;
+
+}
+
+h1{
+    color: #052c65 !important; 
+    font-family:cursive;   
+
+}
+.card-title{
+    margin: 0 !important;
+}
+
+
+
+P{
+    color: #052c65 !important; 
+    font-family:cursive;
+    font-size: 18px;  
+    margin: 0 !important;
+}
+
+span{
+    color: #052c65 !important; 
+    font-size: 13px ;
+
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+   
+
+}
+
+.nav-link.dropdown-toggle{
+    color: #fff !important;  
+}
+
+.d-flex{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-outline-success{
+    border: transparent !important;
+    color: #fff !important;  
+    text-decoration: underline !important;
+
+}
+
+.btn-outline-secondary{
+    border: transparent !important;
+    color: #fff !important;  
+
+}
+.bigpromo-container{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    gap: 20px;
+}
+.form-select{
+    border: transparent !important;
+    color: #052c65 !important; 
+}
+.wraper-container{
+    display: flex;
+    
+}
+label{
+    display: flex !important;
+    align-items: center;
+    color: #052c65 !important; 
+    font-family:cursive;
+}
+.mb-3{
+    max-width: 100% !important;
+}
+
+
+
+.promo{
+    width: 500px ;
+    border-radius: 10px;
+    padding: 10px;
+    object-fit: cover;
+
+}
+.mb{
+    flex-direction: initial !important;
+    border: transparent !important;
+
+   
+}
+.btn-outline{
+    color: red !important;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.container-carrousel {
+    display: flex;
+    padding: 10px 0px;
+    gap: 20px;
+    border: transparent !important;
+   
+   
+}
+   
+
+.w-100{
+    border-radius: 10px !important;
+   
+}
+
+h2{
+    color: #052c65 !important; 
+    font-family:cursive !important;
+    max-width: 50%;
+   font-size:18px !important;
+   padding:0px 10px;
+   text-align: justify;
+
+}
+@media screen and (max-width: 780px)   {
+    .mb{
+        flex-direction: column !important;
+    }
+    .promo{
+        width: 100% !important;
+    }
+    
+    .card-container{
+        flex-direction: column !important;
+        padding-top: 15px !important;
+        gap: 0 !important;
+    }
+    .container-carrousel{
+        flex-direction: column;
+    }
+    h2{
+        max-width: 100% !important;
+    }
+}

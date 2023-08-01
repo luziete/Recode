@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="destino.css" />
+        <link
+            rel="stylesheet"
+            href="./bootstrap-5.3.0-dist/css/bootstrap.css"
+        />
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <img
+                        class="image"
+                        src="./bootstrap-5.3.0-dist/assest/voo.png"
+                    />
+                    <a class="navbar-brand" href="#">Rota dos Sonhos</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Ofertas e destinos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Ofertas e destinos</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >destinos</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Ofertas de voos</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Rota Travel</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Minhas viagens
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Administrar suas viagens</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Check-in</a
+                                        >
+                                    </li>
+
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Cancelar viagem</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Central de Ajuda
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Contato</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Conta e senha</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Bagagem</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="d-flex" role="search">
+                        <button
+                            class="btn btn-sm btn-outline-secondary"
+                            type="button"
+                        >
+                            Status de voos
+                        </button>
+                        <button
+                            class="btn btn-outline-success me-a"
+                            type="button"
+                        >
+                            Fazer login
+                        </button>
+                    </form>
+                </div>
+            </nav>
+
+            <div class="header">
+                <h1>Voe pelo Brasil e pelo Mundo com ofertas imperdíveis</h1>
+                <p>Se preferir pague com Pix</p>
+            </div>
+
+            <div class="bigpromo-container">
+                <div class="wraper-container">
+                    <label>De</label>
+                    <select
+                        class="form-select"
+                        aria-label="Default select example"
+                    >
+                        <option selected>Belém - Algusto Montenegro</option>
+                        <option value="1">Belém - Curitiba</option>
+                        <option value="2">Belém - Rio de Janeiro</option>
+                        <option value="3">Belém - Brasília</option>
+                    </select>
+                </div>
+
+                <div class="wraper-container">
+                    <label>Para</label>
+                    <select
+                        class="form-select"
+                        aria-label="Default select example"
+                    >
+                        <option selected>Todos os destinos</option>
+                        <option value="1">Domeésticos</option>
+                        <option value="2">América do Sul</option>
+                        <option value="3">América latina</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card mb-3" style="max-width: 540px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                src="./bootstrap-5.3.0-dist/assest/cida.png"
+                                class="img-fluid rounded-start"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <span>Preço a parti de</span>
+                                <p>BRL R$ 1.000</p>
+                                <span>Taxas incluidas</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Turquia</h5>
+                                <p class="card-text">
+                                    As acomodações são equipadas com
+                                    ar-condicionado, TV, minibar, mesa de
+                                    trabalho, banheira e Wi-Fi.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary"
+                                        >Principais comodidades do hotel</small
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                src="./bootstrap-5.3.0-dist/assest/cidad-1.png"
+                                class="img-fluid rounded-start"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <span>Preço a parti de</span>
+                                <p>BRL R$ 1.000</p>
+                                <span>Taxas incluidas</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Brasil</h5>
+                                <p class="card-text">
+                                    As acomodações são equipadas com
+                                    ar-condicionado, TV, minibar, mesa de
+                                    trabalho, banheira e Wi-Fi.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary"
+                                        >Principais comodidades do hotel</small
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card mb-3" style="max-width: 540px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                src="./bootstrap-5.3.0-dist/assest/cidad-2.png"
+                                class="img-fluid rounded-start"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <span>Preço a parti de</span>
+                                <p>BRL R$ 1.000</p>
+                                <span>Taxas incluidas</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Portugal</h5>
+                                <p class="card-text">
+                                    As acomodações são equipadas com
+                                    ar-condicionado, TV, minibar, mesa de
+                                    trabalho, banheira e Wi-Fi.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary"
+                                        >Principais comodidades do hotel</small
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                src="./bootstrap-5.3.0-dist/assest/cidad-3.png"
+                                class="img-fluid rounded-start"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <span>Preço a parti de</span>
+                                <p>BRL R$ 1.000</p>
+                                <span>Taxas incluidas</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Espanha</h5>
+                                <p class="card-text">
+                                    As acomodações são equipadas com
+                                    ar-condicionado, TV, minibar, mesa de
+                                    trabalho, banheira e Wi-Fi.
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary"
+                                        >Principais comodidades do hotel</small
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb">
+                <img
+                    class="promo"
+                    src="./bootstrap-5.3.0-dist/assest/promo.jpg"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Festival de Ingresso de Orlando</h5>
+                    <p class="card-text">
+                        Garanta as melhores ofertas de ingressos e atividades.
+                    </p>
+                    <button type="submit" class="btn btn-outline">
+                        Confira ofertas
+                    </button>
+                </div>
+            </div>
+            <div class="container-carrousel">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                                src="./bootstrap-5.3.0-dist/assest/dest-1.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="./bootstrap-5.3.0-dist/assest/dest-3.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="./bootstrap-5.3.0-dist/assest/dest-2.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                            />
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <h2>
+                    Destinos nacionais e internacionais com os melhores preços e
+                    condições. Diversão garantida com os menores preços de
+                    ingressos para os melhores parques! Passeios, exposições e
+                    atrações turísticas, complete a sua viagem com mais
+                    economia. Confira ofertas de pacotes de viagens para curtir
+                    lugares romanticos no dia dos namorados, passagens aéreas
+                    baratas e pacotes de viagens para o nordeste no dia das mães
+                    e hotéis com preços imperdíveis para viajar nos feriados e
+                    aos finais de semana. Voe pelo Brasil com a Rota dos Sonhos.
+                    Confira preços de passagem e voos agora e planeje sua
+                    próxima viagem com a companhia aérea lider do Brasil.
+                </h2>
+            </div>
+        </div>
+
+        <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
