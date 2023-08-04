@@ -29,6 +29,12 @@
     font-size: 25px !important;
 }
 
+.nav-link{
+    color: #fff !important;
+    text-decoration: underline !important;
+
+}
+
 .navbar-toggler{
     border: 1px solid#fff !important;
     background-color: #9ba7b8 !important;
@@ -62,7 +68,7 @@
 
 .card-title{
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:cursive !important;
     text-align: left;
     color: #fff !important;
     margin: 0;
@@ -71,6 +77,7 @@
     font-size: 16px;
     color: #fff;
     text-align: left;
+    font-family:cursive !important;
 
 }
 .card{
@@ -129,6 +136,7 @@
 
 h2{
     color: #052c65 !important;
+    font-family:cursive !important;
 }
 .app-img{
     object-fit: cover;
