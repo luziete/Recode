@@ -31,11 +31,7 @@
     padding: 10px;
     height: 60px;
 }
-.nav-link{
-    color: #fff !important;
-  
 
-}
 
 .link{
     color: #fff !important;
@@ -76,6 +72,7 @@
 h1{
     color: #052c65  !important;
     font-size: 25px !important;
+    padding-top: 20px;
 
 }
 
